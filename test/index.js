@@ -5,12 +5,16 @@ import stylelint from 'stylelint';
 
 const config = {
   extends: [
-    path.resolve('../'),
+    path.join(__dirname, '../'),
   ],
 };
 
 const code = `
-  /* TODO */
+/* TODO */
+
+.test {
+  content: 'test';
+}
 `;
 
 test('should not results errors nor warnings', async t => {

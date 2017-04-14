@@ -25,15 +25,15 @@
     "README.md",
     "UNLICENSE"
   ],
+  "scripts": {
+    "test": "ava"
+  },
   "devDependencies": {
-    "ava": "^0.16.0",
+    "ava": "^0.19.1",
     "stylelint": "^7.2.0",
-    "stylelint-config-standard": "^13.0.0"
+    "stylelint-config-standard": "^16.0.0"
   },
   "peerDependencies": {
     "stylelint": "^7.2.0"
-  },
-  "scripts": {
-    "test": "ava tests/*.js"
   }
 }
