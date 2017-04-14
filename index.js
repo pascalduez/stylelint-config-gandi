@@ -1,5 +1,8 @@
 module.exports = {
-  "extends": "stylelint-config-standard",
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-css-modules",
+  ],
   "rules": {
     "indentation": 2,
     "string-quotes": "single",
@@ -32,6 +35,6 @@ module.exports = {
     "media-feature-range-operator-space-after": "always",
     "media-feature-parentheses-space-inside": "never",
     "media-feature-colon-space-before": "never",
-    "media-feature-colon-space-after": "always"
-  }
+    "media-feature-colon-space-after": "always",
+  },
 };
