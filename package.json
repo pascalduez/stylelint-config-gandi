@@ -1,7 +1,7 @@
 {
   "name": "stylelint-config-gandi",
   "version": "0.1.0",
-  "description": "CSS modules shareable config for stylelint",
+  "description": "Gandi's Stylelint config",
   "keywords": [
     "stylelint",
     "stylelint-config",

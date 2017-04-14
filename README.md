@@ -6,7 +6,7 @@
 ## Installation
 
 ```
-npm install stylelint-config-gandi --save-dev
+npm install stylelint stylelint-config-gandi --save-dev
 ```
 
 
