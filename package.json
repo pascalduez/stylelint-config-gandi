@@ -1,0 +1,39 @@
+{
+  "name": "stylelint-config-gandi",
+  "version": "0.1.0",
+  "description": "CSS modules shareable config for stylelint",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "gandi"
+  ],
+  "author": {
+    "name": "Pascal Duez",
+    "url": "https://github.com/pascalduez"
+  },
+  "homepage": "https://github.com/pascalduez/stylelint-config-gandi",
+  "bugs": "https://github.com/pascalduez/stylelint-config-gandi/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pascalduez/stylelint-config-gandi.git"
+  },
+  "license": "Unlicense",
+  "main": "index.js",
+  "files": [
+    "CHANGELOG.md",
+    "index.js",
+    "README.md",
+    "UNLICENSE"
+  ],
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "stylelint": "^7.2.0",
+    "stylelint-config-standard": "^13.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^7.2.0"
+  },
+  "scripts": {
+    "test": "ava tests/*.js"
+  }
+}
